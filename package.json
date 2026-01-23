@@ -1,0 +1,35 @@
+{
+  "name": "@cboone/tailwind-ch-plugins",
+  "version": "1.0.0",
+  "description": "Custom Tailwind CSS plugins and theme extensions",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js",
+    "./plugins": "./src/plugins/index.js",
+    "./plugins/*": "./src/plugins/*.js",
+    "./theme": "./src/theme/index.js",
+    "./theme/*": "./src/theme/*.js"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "alpine",
+    "css",
+    "plugins",
+    "tailwind",
+    "tailwindcss"
+  ],
+  "author": "cboone",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cboone/tailwind-ch-plugins.git"
+  },
+  "peerDependencies": {
+    "tailwindcss": "^3.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
