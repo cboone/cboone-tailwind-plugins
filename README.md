@@ -1,11 +1,11 @@
-# @cboone/tailwind-ch-plugins
+# @cboone/tailwind-plugins
 
 Custom Tailwind CSS plugins and theme extensions.
 
 ## Installation
 
 ```bash
-npm install @cboone/tailwind-ch-plugins
+npm install @cboone/tailwind-plugins
 ```
 
 **Note:** This package is published to GitHub Packages. Configure your `.npmrc`:
@@ -24,7 +24,7 @@ import {
   mediaVariants,
   shadowUtilities,
   zipUnderline,
-} from "@cboone/tailwind-ch-plugins";
+} from "@cboone/tailwind-plugins";
 
 export default {
   plugins: [childSelectors, mediaVariants, shadowUtilities, zipUnderline],
@@ -34,7 +34,7 @@ export default {
 ### Individual Plugins
 
 ```javascript
-import childSelectors from "@cboone/tailwind-ch-plugins/plugins/child-selectors";
+import childSelectors from "@cboone/tailwind-plugins/plugins/child-selectors";
 
 export default {
   plugins: [childSelectors],
@@ -53,7 +53,7 @@ import {
   screens,
   shadowWithInner,
   textShadow,
-} from "@cboone/tailwind-ch-plugins/theme";
+} from "@cboone/tailwind-plugins/theme";
 
 export default {
   theme: {

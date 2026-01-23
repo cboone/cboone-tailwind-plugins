@@ -1,5 +1,5 @@
 /**
- * @cboone/tailwind-ch-plugins
+ * @cboone/tailwind-plugins
  *
  * Custom Tailwind CSS plugins and theme extensions.
  *
